@@ -16,7 +16,7 @@ function App() {
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 1.5 }}
         href="#"
-        className="hidden xl:inline-block sticky left-16 top-20  p-4 border rounded-full border-gray-300 text-2xl cursor-pointer"
+        className="hidden min-[1740px]:inline-block sticky left-16 top-20  p-4 border rounded-full border-gray-300 text-2xl cursor-pointer"
       >
         ^
       </motion.a>
