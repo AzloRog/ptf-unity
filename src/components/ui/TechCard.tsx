@@ -2,13 +2,6 @@ import { technology } from "../../constants/technologies";
 import { motion } from "framer-motion";
 interface Props extends technology {}
 
-const svgVariant = {
-  hidden: { rotate: -180 },
-  visible: {
-    rotate: 0,
-    transition: { duration: 1 },
-  },
-};
 const pathVariant = {
   hidden: {
     pathLength: 0,

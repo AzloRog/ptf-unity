@@ -9,8 +9,6 @@ html {
     scroll-behavior: smooth;
 
 }
-body {
-}
 @layer base {
     body {
         @apply bg-slate-950 text-neutral-100;

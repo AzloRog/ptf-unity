@@ -1,7 +1,6 @@
 import TechCard from "./ui/TechCard";
 import technologies from "../constants/technologies";
-import { motion, stagger, Variants } from "framer-motion";
-import { useAnimate, useInView } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 
 const listVariant: Variants = {
   visible: {

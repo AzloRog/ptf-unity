@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import projects from "../constants/projects";
 import ProjectCard from "./ui/ProjectCard";
 

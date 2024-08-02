@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { motion, SequenceOptions, useAnimate } from "framer-motion";
+import { motion, useAnimate } from "framer-motion";
 import { MdEmail } from "react-icons/md";
 import { IoExitOutline } from "react-icons/io5";
 
