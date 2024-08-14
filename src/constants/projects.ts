@@ -1,8 +1,4 @@
 import colorGeneratorImage from "../assets/projects/color-generator.png";
-import cocktailsImage from "../assets/projects/cocktails.png";
-import hooBankImage from "../assets/projects/hoo-bank.png";
-import sliderImage from "../assets/projects/slider.png";
-import menuImage from "../assets/projects/menu.png";
 import quizProjectImage from "../assets/projects/quiz-project.png";
 import socialApp from "../assets/projects/social-app.png";
 
