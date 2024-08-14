@@ -20,7 +20,7 @@ const projects: Project[] = [
     id: 0,
     title: "Social App",
     description:
-      "Мой последний проект, социальная сеть, подробнее о проекте написано в нем же в первом посте.",
+      "Мой последний проект, социальная сеть, подробнее о проекте написано в нем же в первом посте, для регистрации можно использовать рандомный email (подтверждение не требуется)",
     image: socialApp,
     githubLink: "https://github.com/AzloRog/sls-app",
     githubPagesLink: "https://azlorog.github.io/sls-app/",
@@ -43,38 +43,6 @@ const projects: Project[] = [
     image: colorGeneratorImage,
     githubLink: "https://github.com/AzloRog/color-generator",
     githubPagesLink: "https://azlorog.github.io/color-generator/",
-  },
-  {
-    id: 3,
-    title: "Cocktails",
-    description: `Обычный проект показывающий навыки имплементации данных из стороннего API с react-router-dom библиотекой`,
-    image: cocktailsImage,
-    githubLink: "https://github.com/AzloRog/cocktails",
-    githubPagesLink: "https://azlorog.github.io/cocktails/",
-  },
-  {
-    id: 4,
-    title: "Hoo bank",
-    description: `Проект показывающий навыки верстки с использованием tailwindcss`,
-    image: hooBankImage,
-    githubLink: "https://github.com/AzloRog/hoo-bank",
-    githubPagesLink: "https://azlorog.github.io/hoo-bank/",
-  },
-  {
-    id: 5,
-    title: "Slider",
-    description: `Слайдер реализованный на ванильном React`,
-    image: sliderImage,
-    githubLink: "https://github.com/AzloRog/slider",
-    githubPagesLink: "https://azlorog.github.io/slider/",
-  },
-  {
-    id: 6,
-    title: "Menu",
-    description: `Базовый React сайт с выводом информации из стороннего API`,
-    image: menuImage,
-    githubLink: "https://github.com/AzloRog/menu-app",
-    githubPagesLink: "https://azlorog.github.io/menu-app/",
   },
 ];
 
