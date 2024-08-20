@@ -25,6 +25,7 @@ const projects: Project[] = [
       "RTK Query",
       "Typescript",
       "React-router-dom",
+      "Tailwindcss",
       "MaterialUI",
       "Supabase",
     ],
