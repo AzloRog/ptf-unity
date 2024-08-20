@@ -36,7 +36,7 @@ const ProjectCard = ({
         <ul className="mt-2 flex gap-3 flex-wrap text-gray-300 text-[18px] font-bold">
           {technologies.map((item, index) => (
             <li
-              className="px-3 py-0.5 border-[2px] border-gray-300 rounded-md leading-none "
+              className="px-3 py-0.5 border border-gray-300 rounded-md leading-none "
               key={index}
             >
               {item}
