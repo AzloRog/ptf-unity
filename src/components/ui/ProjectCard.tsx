@@ -25,18 +25,18 @@ const ProjectCard = ({
       variants={variants}
       initial={"initial"}
       whileInView="whileInView"
-      className="flex max-md:flex-col gap-8 text-xl max-xl:items-center"
+      className="flex max-md:flex-col gap-8 items-center text-xl max-xl:items-center"
     >
-      <div className="md:w-[30%] image-shadow">
+      <div className="md:w-[32%] image-shadow">
         <img src={image} />
       </div>
-      <div className="flex-1 xl:mt-4">
+      <div className="flex-1 ">
         <h3 className="text-3xl">{title}</h3>
-        <p className="mt-4 text-gray-400">{description}</p>
-        <ul className="mt-2 flex gap-3 flex-wrap text-gray-300 text-[18px] font-bold">
+        <p className="mt-3 text-gray-400">{description}</p>
+        <ul className="mt-2 flex gap-3 flex-wrap text-slate-200 text-[18px] font-medium">
           {technologies.map((item, index) => (
             <li
-              className="px-3 py-0.5 border border-gray-300 rounded-md leading-none "
+              className="px-3 py-0.5 border border-slate-400 rounded-md leading-none "
               key={index}
             >
               {item}
