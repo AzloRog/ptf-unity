@@ -1,5 +1,3 @@
-import colorGeneratorImage from "../assets/projects/color-generator.png";
-import quizProjectImage from "../assets/projects/quiz-project.png";
 import socialApp from "../assets/projects/social-app.png";
 
 export interface Project {
