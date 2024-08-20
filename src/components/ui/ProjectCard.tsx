@@ -15,6 +15,7 @@ interface Props extends Project {}
 const ProjectCard = ({
   title,
   description,
+  technologies,
   image,
   githubLink,
   githubPagesLink,
@@ -32,7 +33,17 @@ const ProjectCard = ({
       <div className="flex-1 xl:mt-4">
         <h3 className="text-3xl">{title}</h3>
         <p className="mt-4 text-gray-400">{description}</p>
-        <div className="mt-4 flex gap-4 text-sm">
+        <ul className="mt-2 flex gap-3 flex-wrap text-gray-300 text-[18px] font-bold">
+          {technologies.map((item, index) => (
+            <li
+              className="px-3 py-0.5 border-[2px] border-gray-300 rounded-md leading-none "
+              key={index}
+            >
+              {item}
+            </li>
+          ))}
+        </ul>
+        <div className="mt-6 flex gap-4 text-sm">
           <motion.a
             href={githubLink}
             target="_blank"

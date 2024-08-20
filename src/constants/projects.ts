@@ -6,6 +6,7 @@ export interface Project {
   id: number;
   title: string;
   description: string;
+  technologies: Array<string>;
   image: string;
   githubLink: string;
   githubPagesLink: string;
@@ -15,30 +16,23 @@ const projects: Project[] = [
   {
     id: 0,
     title: "Social App",
-    description:
-      "Мой последний проект, социальная сеть, подробнее о проекте написано в нем же в первом посте, для регистрации можно использовать рандомный email (подтверждение не требуется)",
+    description: `Социальная сеть, мой первый pet проект, в качестве backend-a 
+       используется Supabase, активно развиваю и добавляю новую логику,
+       в дальнейшем планирую перевести backend на Nest js. Необходимо зарегистрироватся, email верификация не требуется - 
+       можно вводить любой email`,
+    technologies: [
+      "Vite",
+      "React",
+      "Redux toolkit",
+      "RTK Query",
+      "Typescript",
+      "React-router-dom",
+      "MaterialUI",
+      "Supabase",
+    ],
     image: socialApp,
     githubLink: "https://github.com/AzloRog/sls-app",
     githubPagesLink: "https://azlorog.github.io/sls-app/",
-  },
-  {
-    id: 1,
-    title: "Quiz project",
-    description: `В данном проекте реализован полноценный конструктор-вопросник с возможностью гибкой настройки любой из карточек-вопросов, 
-    а также сам тест на основе сгенерированных пользователем карточек.
-    `,
-    image: quizProjectImage,
-    githubLink: "https://github.com/AzloRog/quiz-project",
-    githubPagesLink: "https://azlorog.github.io/quiz-project/",
-  },
-  {
-    id: 2,
-    title: "Color generator",
-    description: `Проект реализован с использованием стороннего API, предоставляет возможность пользователю ввести искомый цвет в виде
-    hex кода либо самим названием цвета на латинице, также можно менять шаг выводимых плиток для удобства.`,
-    image: colorGeneratorImage,
-    githubLink: "https://github.com/AzloRog/color-generator",
-    githubPagesLink: "https://azlorog.github.io/color-generator/",
   },
 ];
 
