@@ -1,6 +1,6 @@
 import socialApp from "../assets/projects/social-app.png";
 import pizzaMaker from "../assets/projects/pizza-maker.png";
-
+import bankingApp from "../assets/projects/banking-app.png"
 export interface Project {
   id: number;
   title: string;
@@ -14,6 +14,19 @@ export interface Project {
 const projects: Project[] = [
   {
     id: 0,
+    title: "Banking App",
+    description: `
+    Данный pet проект предназначен для мониторинга счетов и транзакций банковских счетов пользователя, на данный момент
+    в активной разработке, решается вопрос с банком о возможности предоставления API для подключения т.е. финальная реализация
+    возможна в виде подключения к банку в случае одобрения банком, либо в виде ручного ввода пользователем информации о своих счетах
+    `,
+    githubLink: "https://github.com/AzloRog/banking-app.git",
+    githubPagesLink: "https://banking-app-two-rho.vercel.app/",
+    image: bankingApp,
+    technologies: ["Next.js", "tailwindcss", "shadcn", "e.t.c"]
+  },
+  {
+    id: 1,
     title: "Pizza website",
     description: `
     Pizza Maker, это веб сайт по заказу пиццы, изначально планировалось как fullstack (MERN) приложение, 
@@ -27,7 +40,7 @@ const projects: Project[] = [
   },
 
   {
-    id: 1,
+    id: 2,
     title: "Social App",
     description: `Социальная сеть, в качестве backend-a 
        используется PostgreSQL - Supabase, активно развиваю и добавляю новую логику,
