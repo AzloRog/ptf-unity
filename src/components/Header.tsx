@@ -18,7 +18,7 @@ const Header = () => {
   }, [isBurgerOpen]);
   return (
     <header className="flex justify-between items-center py-4 container    ">
-      <p className="font-bold text-lg md:text-4xl">React developer</p>
+      <p className="font-bold text-lg md:text-4xl">Unity developer</p>
       <nav>
         <ul className="max-md:hidden  flex gap-8 text-xl">
           <li>
@@ -68,7 +68,7 @@ const Header = () => {
                 <motion.a
                   whileHover={{ scale: 1.1 }}
                   transition={{ duration: 0.09 }}
-                  href="https://hh.ru/resume/ee86daa6ff0d4f09500039ed1f557276444c34"
+                  href="https://simferopol.hh.ru/resume/82ab2cceff0e0765920039ed1f746f505a6250"
                   target="_blank"
                   className="block"
                 >

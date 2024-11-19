@@ -27,13 +27,13 @@ const Experience = () => {
         initial="initial"
         whileInView="visible"
         variants={listVariant}
-        className="mt-16 md:mt-36 grid justify-center grid-cols-[repeat(auto-fill,_minmax(40px,_190px))]  gap-x-10 gap-y-16"
+        className="mt-16 md:mt-36 grid justify-center  grid-cols-[repeat(auto-fit,_minmax(40px,_210px))]  gap-x-10 gap-y-16"
       >
         {technologies.map((item) => (
-          <motion.li key={item.id} variants={itemVariant}>
+          <motion.li key={item.id} variants={itemVariant} className="h-full">
             <TechCard
               id={item.id}
-              svg={item.svg}
+              image={item.image}
               title={item.title}
               color={item.color}
             />
